@@ -221,11 +221,11 @@ echo "}\n";
         if ($_SESSION['leveluser']=='admin') {
           ?>
 
-           <li class="header">Profil Data</li>
+           <li class="header">Profil</li>
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-home"></i>
-                <span>Profil Data</span> <i class="fa fa-angle-left pull-right"></i>
+                <span>Profil</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
                 <li><a href="?module=menu&id=1"><i class="fa fa-check-square-o"></i>Profil Klinik</a></li>

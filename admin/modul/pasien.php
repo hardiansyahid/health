@@ -448,6 +448,7 @@ window.location='media.php?module=pasien&act=view'</script>";
 
     // PROSES HAPUS DATA PENGGUNA //
       case 'delete':
+      mysqli_query($koneksi,"DELETE FROM tb_kunjungan WHERE kode_pasien='$_GET[kode_pasien]'");
       mysqli_query($koneksi,"DELETE FROM tb_pasien WHERE kode_pasien='$_GET[kode_pasien]'");
       echo "<script>window.location='media.php?module=pasien&act=view'</script>";
       break;

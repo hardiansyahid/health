@@ -43,7 +43,7 @@
 
         <div class="section-title">
           <h2>Profil Klinik</h2>
-          <p>Klinik Dr Cika Naya adalah klinik kesehatan dokter umum yang terletak di Kota Bandar Lampung </p>
+          <p>Klinik Dr Cika Naya adalah klinik kesehatan dokter umum yang terletak di Jl. Ikan Sebelah No.21, Pesawahan, Kec. Telukbetung Selatan, Kota Bandar Lampung, Lampung 35211 </p>
         </div>
 
         <div class="row">

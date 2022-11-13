@@ -8,7 +8,10 @@ include"../koneksi.php" ?>
 <table border="1" align="center" width="100%" cellpadding="0">
 		<tr bgcolor="#fff">
 			<td width="100px"><img src="../img/core-img/logo.png" width="100px"></td>
-			<td align="center"><h2>Klinik DR Cika Naya</h2><small>Lampung 34199</small></td>
+			<td align="center"><h2>Klinik DR Cika Naya</h2><small>
+                    Jl. Ikan Sebelah No.21, Pesawahan, Kec. Telukbetung Selatan, Kota Bandar Lampung, Lampung 35211
+                    Telepon: (0721) 485153
+                </small></td>
 			
 		</tr>
 		</table>

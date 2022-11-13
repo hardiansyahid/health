@@ -234,10 +234,34 @@
 
     <?php
     break;
-
-    // PROSES HAPUS DATA PENGGUNA //
+    $mysqli = $koneksi;
+    // PROSES HAPUS DATA POLI //
       case 'delete':
+
+      //hapus jadwal dan detail jadwal
+      $jadwalDokter = mysqli_query($koneksi, "select * from jadwal_dokter where id_poli='$_GET[kode_poli]'");
+      $existJadwalDokter = mysqli_num_rows($jadwalDokter);
+      $dataJadwalDokter = mysqli_fetch_array($jadwalDokter);
+      if ($existJadwalDokter > 0){
+          $idJadwal = $dataJadwalDokter['id_jadwal'];
+          mysqli_query($koneksi, "DELETE FROM detail_jadwal where id_jadwal='$idJadwal'");
+          mysqli_query($koneksi,"DELETE FROM jadwal_dokter WHERE id_poli='$_GET[kode_poli]'");
+      }
+
+      //hapus tb_unitmedis
+      $queryUnitMedis = mysqli_query($koneksi, "select * from tb_unitmedis where id_poli='$_GET[kode_poli]'");
+      $existUnitMedis = mysqli_num_rows($queryUnitMedis);
+      $unitMedis = mysqli_fetch_array($queryUnitMedis);
+      if ($existUnitMedis > 0){
+          mysqli_query($koneksi,"DELETE FROM jadwal_dokter WHERE id_unitmedis='$unitMedis[id_unitmedis]'");
+          mysqli_query($koneksi, "DELETE FROM tb_unitmedis where id_poli='$_GET[kode_poli]'");
+      }
+      //hapus pegawai
+      mysqli_query($koneksi,"DELETE FROM tb_pegawai WHERE id_poli='$_GET[kode_poli]'");
+
+      //hapus poli
       mysqli_query($koneksi,"DELETE FROM tb_poli WHERE id_poli='$_GET[kode_poli]'");
+
       echo "<script>window.location='media.php?module=poli&act=view'</script>";
       break;
 
