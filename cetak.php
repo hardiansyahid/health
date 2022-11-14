@@ -7,7 +7,10 @@ include"koneksi.php" ?>
 <table border="1" align="center" width="100%" cellpadding="0">
 		<tr bgcolor="#fff">
 			<td width="100px"><img src="img/core-img/logo.png" width="100px"></td>
-			<td align="center"><h2>Klinik DR Cika Naya</h2><small>Lampung 34199</small></td>
+			<td align="center"><h2>Klinik DR Cika Naya</h2><small>
+                    Jl. Ikan Sebelah No.21, Pesawahan, Kec. Telukbetung Selatan, Kota Bandar Lampung, Lampung 35211
+                    Telepon: (0721) 485153
+                </small></td>
 			
 		</tr>
 		</table>
@@ -119,7 +122,7 @@ $data = mysqli_fetch_array($sql);
   $array_hari = array(1=>'Senin','Selasa','Rabu','Kamis','Jumat','Sabtu','Minggu');
   $hari = $array_hari[date('N')];
 
-  $array_bulan = array(1=>'Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','Novemer','Desember');
+  $array_bulan = array(1=>'Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember');
   $bulan = $array_bulan[date('n')];
 
   $tgl = date('j');
