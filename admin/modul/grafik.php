@@ -27,7 +27,7 @@ $(document).ready(function() {
             type: 'column'
          },   
          title: {
-            text: 'Grafik Kunjungan Puskesmas '
+            text: 'Grafik Kunjungan Klinik dr. Cika Naya '
          },
          xAxis: {
             categories: ['Nama POLI']
