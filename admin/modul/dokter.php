@@ -275,8 +275,16 @@ $data = mysqli_fetch_array($result);
 </div>
 		 <?php
 	}else if ($_GET['act']=='hapus') {
-		mysqli_query($koneksi,"delete from tb_unitmedis where id_unitmedis = '$_GET[id_unitmedis]'");
-		?> 
+         $jadwalDokter = mysqli_query($koneksi, "select * from jadwal_dokter where id_unitmedis='$_GET[id_unitmedis]'");
+         $existJadwalDokter = mysqli_num_rows($jadwalDokter);
+         $dataJadwalDokter = mysqli_fetch_array($jadwalDokter);
+         if ($existJadwalDokter > 0){
+             $idJadwal = $dataJadwalDokter['id_jadwal'];
+             mysqli_query($koneksi, "DELETE FROM detail_jadwal where id_jadwal='$idJadwal'");
+             mysqli_query($koneksi,"DELETE FROM jadwal_dokter WHERE id_unitmedis='$_GET[id_unitmedis]'");
+         }
+         mysqli_query($koneksi,"delete from tb_unitmedis where id_unitmedis = '$_GET[id_unitmedis]'");
+		?>
                                             <script type="text/javascript">
                                             
                                             alert ("Data Berhasil Dihapus");
