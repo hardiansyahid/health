@@ -138,7 +138,7 @@ include"koneksi.php"; ?>
   </main><!-- End #main -->
 
  <div style="position:fixed;left:20px;bottom:20px;overflow: hidden;">
-<a href="https://api.whatsapp.com/send?phone=+6282376195401&text=Halo Klinik DR Cika">
+<a href="https://api.whatsapp.com/send?phone=+6282285009401&text=Halo Klinik DR Cika">
 <button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px">
 <img src="https://www.tanjunglesung.com/wp-content/uploads/2018/12/logo-wa-whatsapp.png" width="30"> 
 <font color="white">Chat Kami</font></button></a>
