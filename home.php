@@ -13,16 +13,12 @@
 
         <!-- Slide 2 -->
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide2.jpg)">
-          <div class="container">
-           
-          </div>
+
         </div>
 
         <!-- Slide 3 -->
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide3.jpg)">
-          <div class="container">
-           
-          </div>
+
         </div>
 
       </div>
