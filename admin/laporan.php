@@ -8,7 +8,10 @@ include"../koneksi.php" ?>
 		<tr bgcolor="#fff">
 			<td width="100px"><img src="../img/core-img/logo.png" width="100px"></td>
 			<td align="center"><h2>DR CIKA NAYA </h2>
-			  <small>Jalan XXXX No. 70, Bandar Lampung 34199</small></td>
+			  <small>
+                  Jl. Ikan Sebelah No.21, Pesawahan, Kec. Telukbetung Selatan, Kota Bandar Lampung, Lampung 35211
+                  Telepon: (0721) 485153
+              </small></td>
 			
 		</tr>
 		</table>
