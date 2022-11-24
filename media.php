@@ -93,7 +93,7 @@ include"koneksi.php"; ?>
                                                 <ul class="dropdown">
                         <li><a href="?module=poli">Daftar Poli</a></li>
                                                 <li><a href="?module=kunjungan">Daftar Kunjungan</a></li>
-                        <li><a href="?module=praktik">Jadwal Praktik</a></li>
+                        <li><a href="?module=praktik">Jadwal Praktik dan Daftar</a></li>
                                                   
 
                                                     

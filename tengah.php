@@ -798,11 +798,11 @@ echo "</div>";
  ?>
                 <!-- Breadcumb Area -->
                 <div class="col-12 col-md-8">
-                    <h3>Jadwal Praktik <?php echo $data['nama_poli'] ?> Puskesmas</h3>
+                    <h3>Jadwal Praktik <?php echo $data['nama_poli'] ?> dr Cika Naya</h3>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="media.php?module=home">Home</a></li>
-                            <li class="breadcrumb-item"><a href="media.php?module=poli">Daftar Spesialis Puskesmas</a></li>
+                            <li class="breadcrumb-item"><a href="media.php?module=poli">Daftar Spesialis dr Cika Naya</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -900,11 +900,11 @@ echo "</div>";
  ?>
                 <!-- Breadcumb Area -->
                 <div class="col-12 col-md-8">
-                    <h3>Praktik <?php echo $dat['nama_unitmedis'] ?> Puskesmas</h3>
+                    <h3>Praktik <?php echo $dat['nama_unitmedis'] ?> dr Cika Naya</h3>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="media.php?module=home">Home</a></li>
-                            <li class="breadcrumb-item"><a href="media.php?module=pilih_jadwal&id=<?php echo $_GET['id'] ?>">Praktik <?php echo $dat['nama_unitmedis'] ?> Puskesmas</a></li>
+                            <li class="breadcrumb-item"><a href="media.php?module=pilih_jadwal&id=<?php echo $_GET['id'] ?>">Praktik <?php echo $dat['nama_unitmedis'] ?> dr Cika Naya</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -1939,7 +1939,7 @@ AND tb_kunjungan.kode_pasien='$_SESSION[kode]' order by tb_kunjungan.no_reg desc
                                     <div class="post-details-meta-data mb-50 d-flex align-items-center justify-content-between">
                                         <!-- Post Author & Date -->
                                         <div class="post-authors-date">
-                                            <p class="post-author">By <a href="#">Puskesmas Mataram Baru</a></p>
+                                            <p class="post-author">By <a href="#">dr Cika Naya</a></p>
                                             <p class="post-date"><?php echo $dat['tanggal'] ?></p>
                                         </div>
                                         <!-- View Comments -->
