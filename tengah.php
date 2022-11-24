@@ -732,7 +732,7 @@ echo "</div>";
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Jadwal Praktik Dokter</h2>
+          <h2>Jadwal Praktik dan Daftar</h2>
         </div>
        </div>
 	<div class="blog-area section-padding-100">
@@ -789,7 +789,7 @@ echo "</div>";
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Jadwal Praktik</h2>
+          <h2>Jadwal Praktik dan Daftar</h2>
         </div>
        
 <?php 

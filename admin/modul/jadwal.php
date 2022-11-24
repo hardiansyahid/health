@@ -10,7 +10,7 @@
 <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
-        <h1> Data Jadwal Praktik Dokter</h1>
+        <h1> Data Jadwal Praktik dan Daftar</h1>
             <ol class="breadcrumb">
             <li><a href="?pg=dashboard"><i class="fa fa-dashboard"></i> Beranda</a></li>
             <li class="active"><a href="?pg=jadwal&act=view">Data jadwal</a></li>
